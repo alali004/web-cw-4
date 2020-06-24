@@ -1,6 +1,13 @@
 html, body{
     margin: 0;
     height: 100%;
+    background-color: dimgrey;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 5px;
+    display: inline-block
+    border-radius 5px;
 }
 
 /* من الخواص التي يجب تغيرها لكي تصل للمطلوب
@@ -15,10 +22,12 @@ html, body{
 
 .sidebar{
     /* pxالعرض هنا يجب ان يكون 120 */
+    width: 120px;
 }
 
 .header{
     /* pxالطول هنا يجب ان يكون 80 */
+    height: 80;
 }
 
 .main{
@@ -28,6 +37,11 @@ html, body{
 a{
     color: darkgray;
     /* اجعل شكل اللنك من غير خط اسفل الكلام */
+    text-decoration: none;
+}
+a:hover{
+color: white;
+text-align: center;
 }
 
 /* !بــونص */
